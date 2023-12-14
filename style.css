@@ -1,0 +1,20 @@
+input {
+    width: 20px;
+  }
+  div#parent {
+    border: 1px solid;
+    width: fit-content;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  div#parent div {
+    padding: 2px;
+   border-right: 1px solid;
+  }
+  /* .input:focus {
+    background: black;
+  } */
+  /* #totalScore {
+    border: 1px solid;
+    padding: 10px;
+  } */
